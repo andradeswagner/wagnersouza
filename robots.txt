@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /wa.m3u
