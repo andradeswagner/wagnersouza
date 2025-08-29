@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wagner A. de Souza — LinksMe</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+<style>
+body{
+  margin:0; min-height:100vh; display:flex; justify-content:center; align-items:flex-start;
+  background:linear-gradient(180deg,#071024 0%,#07172a 100%); color:#fff; font-family:Inter, sans-serif;
+  padding:50px 24px 24px;
+}
+.wrap{max-width:520px;width:100%}
+.card{
+  background:rgba(11,18,32,0.8); backdrop-filter:blur(6px); padding:28px; border-radius:20px; text-align:center;
+}
+.avatar{width:128px;height:128px;border-radius:50%;overflow:hidden;margin:0 auto 16px;transition:transform .4s;}
+.avatar img{width:40%;height:40%;object-fit:cover;transition:transform .4s;}
+.avatar:hover{transform:scale(1.05);}
+.avatar:hover img{transform:scale(1.08) rotate(2deg);}
+h1{margin:12px 0 4px;font-size:20px}
+p.bio{margin:0;color:#9aa4b2;font-size:13px;line-height:1.4}
+.links{display:flex;flex-direction:column;gap:12px;margin-top:18px;text-align:left}
+a.link{
+  display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:12px;background:#0b1220;
+  text-decoration:none;color:#fff;font-weight:700;transition:transform .2s ease,background .2s ease;
+}
+a.link:hover{transform:scale(1.02);background:rgba(255,255,255,0.05);}
+.link i{
+  width:40px;height:40px;border-radius:50%;display:flex;justify-content:center;align-items:center;
+  color:#fff;font-size:20px;transition:transform .3s; animation:float 3s ease-in-out infinite alternate;
+}
+.instagram i{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);}
+.whatsapp i{background:#25D366;}
+.youtube i{background:#FF0000;}
+.threads i{background:#000;}
+.linkedin i{background:#0A66C2;}
+.deezer i{background:#00C7F2;}
+.blog i{background:#7c3aed;}
+.email i{background:#D44638;}
+.link:hover i{transform:scale(1.25);}
+
+@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-2px)}100%{transform:translateY(0)}}
+@media(max-width:420px){.avatar{width:112px;height:112px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <main class="card">
+    <span class="avatar"><img src="https://info.wsouza.com.br/img/wsouza.png" alt="Foto de perfil"></span>
+    <h1>Wagner A. de Souza</h1>
+    <p class="bio">Servidor Público Municipal</p>
+    <section class="links" id="linksList"></section>
+  </main>
+</div>
+<script>
+const data=[
+{t:'Instagram',i:'fa-brands fa-instagram',h:'https://www.instagram.com/andradeswagner',c:'instagram'},
+{t:'WhatsApp',i:'fa-brands fa-whatsapp',h:'https://wa.me/5541999221983',c:'whatsapp'},
+{t:'Threads',i:'fa-brands fa-threads',h:'https://www.threads.com/@andradeswagner',c:'threads'},
+{t:'YouTube',i:'fa-brands fa-youtube',h:'https://www.youtube.com/@andradeswagner',c:'youtube'},
+{t:'Deezer',i:'fa-brands fa-deezer',h:'https://www.deezer.com/br/profile/6254005963',c:'deezer'},
+{t:'LinkedIn',i:'fa-brands fa-linkedin',h:'https://www.linkedin.com/in/andradeswagner/',c:'linkedin'},
+{t:'E-Mail',i:'fa-solid fa-envelope',h:'mailto:wagner@wagnersouza.com.br',c:'email'},
+{t:'Dicas Linux e Windows',i:'fa-solid fa-laptop-code',h:'https://info.wsouza.com.br',c:'blog'},
+];
+const L=document.getElementById('linksList');
+data.forEach(d=>{
+  const a=document.createElement('a');
+  a.className='link '+d.c; a.href=d.h; a.target='_blank'; a.rel='noopener noreferrer'; a.title=d.t; a.setAttribute('aria-label',d.t);
+  const icon=document.createElement('i'); icon.className=d.i; icon.setAttribute('aria-hidden','true');
+  const text=document.createElement('span'); text.textContent=d.t;
+  a.appendChild(icon); a.appendChild(text); L.appendChild(a);
+});
+</script>
+</body>
+</html>
