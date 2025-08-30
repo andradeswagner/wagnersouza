@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /wa.m3u
+Allow: /
+
+Sitemap: http://www.wagnersouza.com.br/sitemap.xml
+
