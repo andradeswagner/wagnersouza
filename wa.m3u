@@ -1,37 +1,65 @@
 #EXTM3U
 
+##CANAIS PÚBLICOS##
+
+#EXTINF:-1 group-title="CANAIS PUBLICOS", TV Cultura
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+
+#EXTINF:-1 group-title="CANAIS PUBLICOS", TV Brasil
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 group-title="CANAIS PUBLICOS", Rede Minas
+https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
+
+##CANAIS ABERTOS##
+
 #EXTINF:-1 group-title="VARIEDADES", Rede Brasil de Televisão
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 
 #EXTINF:-1 group-title="VARIEDADES", MBC Brasil TV
 https://tv01.zas.media:1936/centraltvweb/centraltvweb/playlist.m3u8
 
+#EXTINF:-1 group-title="VARIEDADES", Play TV
+https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8
+
 #EXTINF:-1 group-title="VARIEDADES", Central TV
 https://tv03.zas.media:1936/mbc/mbc/playlist.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES", Rede Clouding
+#EXTINF:-1 group-title="VARIEDADES", Rede TV Paraná
+https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
+
+##SÉRIES ANTIGAS##
+
+#EXTINF:-1 group-title="SÉRIES ANTIGAS", Rede Clouding
 https://stmv8.samcast.com.br/redeclonetv/redeclonetv/playlist.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES", Canal 29
-https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
-
-#EXTINF:-1 group-title="VARIEDADES", ABC TV
-https://stmv1.srvstm.com/abc7891/abc7891/playlist.m3u8
-
-#EXTINF:-1 group-title="VARIEDADES", 1980 Channel
-https://stmv1.srvif.com/channel80s/channel80s/playlist.m3u8
-
-#EXTINF:-1 group-title="VARIEDADES", Web Tv Xtreme
+#EXTINF:-1 group-title="SÉRIES ANTIGAS", Web Tv Xtreme
 https://stmv1.srvif.com/xtremetv/xtremetv/playlist.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES", Loading
-https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+#EXTINF:-1 group-title="SÉRIES ANTIGAS", Canal 29
+https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES",AWTV
+#EXTINF:-1 group-title="SÉRIES ANTIGAS", ABC TV
+https://stmv1.srvstm.com/abc7891/abc7891/playlist.m3u8
+
+#EXTINF:-1 group-title="SÉRIES ANTIGAS", 1980 Channel
+https://stmv1.srvif.com/channel80s/channel80s/playlist.m3u8
+
+#EXTINF:-1 group-title="SÉRIES ANTIGAS",AWTV
 https://acesso.ecast.site:3070/live/awtvlive.m3u8
 
-#EXTINF:-1 group-title="PUBLICO", TV Brasil
-https://tvbrasil-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 group-title="SÉRIES ANTIGAS",UP WEB TV
+https://stmv1.conectastreaming.com/tvpa4741/tvpa4741/playlist.m3u8
+
+#EXTINF:-1 group-title="SÉRIES ANTIGAS",TV ONE
+https://video02.logicahost.com.br/tvone/tvone/playlist.m3u8
+
+##ANIMES##
+
+#EXTINF:-1 group-title="ANIMES", Loading
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+
+##JAPÃO##
 
 #EXTINF:-1 group-title="JAPAN", Toei Channel
 https://stream1.freetv.fun/23f15ca43412412c61750c19dbc1f71b3585fb27c8eef0c9f0ae62260a4ddc41.m3u8
@@ -53,6 +81,8 @@ https://mt01.utako.moe/Tokyo_MX1/index.m3u8
 
 #EXTINF:-1 group-title="JAPAN", TV Tokyo Channel 2
 https://mt01.utako.moe/Tokyo_MX2/index.m3u8
+
+##RESERVAS##
 
 #EXTINF:-1 group-title="JAPAN", Toei Channel 2
 https://ca01.utako.moe/toei/index.m3u8
