@@ -28,8 +28,7 @@ https://tv03.zas.media:1936/mbc/mbc/playlist.m3u8
 ##SÉRIES ANTIGAS##
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Rede Clouding
-#https://stmv8.samcast.com.br/redeclonetv/redeclonetv/playlist.m3u8
-https://stmv.webtvninjas.com.br/abner5597/abner5597/playlist.m3u8
+https://stmv7.voxtvhd.com.br/clouding/clouding/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Web Tv Xtreme
 https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
@@ -54,7 +53,7 @@ https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
 #https://stream1.freetv.fun/23f15ca43412412c61750c19dbc1f71b3585fb27c8eef0c9f0ae62260a4ddc41.m3u8
 
 #EXTINF:-1 group-title="JAPAN", TV Asahi
-#https://mt01.utako.moe/TV_Asahi/index.m3u8
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS151&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 
 #EXTINF:-1 group-title="JAPAN", TV Asahi Channel 1
 #https://ca01.utako.moe/ex_ch1/index.m3u8
