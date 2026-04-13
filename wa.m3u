@@ -19,29 +19,16 @@ https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m
 #EXTINF:-1 group-title="VARIEDADES", MBC Brasil TV
 https://tv01.zas.media:1936/centraltvweb/centraltvweb/playlist.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES", Play TV
-#https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8
-
-#EXTINF:-1 group-title="VARIEDADES", Central TV
-https://tv03.zas.media:1936/mbc/mbc/playlist.m3u8
-
-##SÉRIES ANTIGAS##
+##SÉRIES ANTIGAS#
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Rede Clouding
-https://stmv7.voxtvhd.com.br/clouding/clouding/playlist.m3u8
+#https://stmv7.voxtvhd.com.br/clouding/clouding/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Web Tv Xtreme
 https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Canal 29
 https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
-
-#EXTINF:-1 group-title="SÉRIES ANTIGAS", ABC TV
-https://stmv1.srvstm.com/abc7891/abc7891/playlist.m3u8
-
-#EXTINF:-1 group-title="SÉRIES ANTIGAS",AWTV
-https://acesso.ecast.site:3070/live/awtvlive.m3u8
-
 ##ANIMES##
 
 #EXTINF:-1 group-title="ANIMES", Loading
@@ -50,7 +37,7 @@ https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
 ##JAPÃO##
 
 ##EXTINF:-1 group-title="JAPAN", Toei Channel
-#https://stream1.freetv.fun/23f15ca43412412c61750c19dbc1f71b3585fb27c8eef0c9f0ae62260a4ddc41.m3u8
+https://stream1.freetv.fun/23f15ca43412412c61750c19dbc1f71b3585fb27c8eef0c9f0ae62260a4ddc41.m3u8
 
 #EXTINF:-1 group-title="JAPAN", TV Asahi
 #https://stream01.willfonk.com/live_playlist.m3u8?cid=BS151&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
