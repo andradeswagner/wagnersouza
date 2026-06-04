@@ -28,8 +28,20 @@ https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
 https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Canal 29
-https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
+#https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
+
+#EXTINF:-1 group-title="SÉRIES ANTIGAS", AWTV
+https://awtv.nuvemplay.live/hls/stream.m3u8
+
+#VARIEDADES##
+
+#EXTINF:-1 group-title="VARIEDADES", Runtime Comédia
+https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
+
 ##ANIMES##
+
+#EXTINF:-1 group-title="ANIMES", Animax
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
 
 #EXTINF:-1 group-title="ANIMES", PlayTV
 #https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8
@@ -46,7 +58,7 @@ https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_720p.m3u
 https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="ESPORTES", Desimpedidos
-https://ogc-desi-tcl-roku-syndication.otteravision.com/ogc/desi/desi.m3u8
+#https://ogc-desi-tcl-roku-syndication.otteravision.com/ogc/desi/desi.m3u8
 
 ##JAPÃO##
 
