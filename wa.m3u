@@ -40,9 +40,6 @@ https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
 
 ##ANIMES##
 
-#EXTINF:-1 group-title="ANIMES", Animax
-https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
-
 #EXTINF:-1 group-title="ANIMES", PlayTV
 #https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8
 
