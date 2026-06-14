@@ -14,7 +14,7 @@ https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
 ##CANAIS ABERTOS##
 
 #EXTINF:-1 group-title="VARIEDADES", Rede Brasil de Televisão
-https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+https://redebrasil.nuvemplay.live/hls/stream.m3u8
 
 #EXTINF:-1 group-title="VARIEDADES", MBC Brasil TV
 https://tv01.zas.media:1936/centraltvweb/centraltvweb/playlist.m3u8
@@ -33,7 +33,15 @@ https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", AWTV
 https://awtv.nuvemplay.live/hls/stream.m3u8
 
+#EXTINF:-1 group-title="SÉRIES ANTIGAS", Web TV Cine
+https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
+
 #VARIEDADES##
+#EXTINF:-1 group-title="VARIEDADES", Runtime
+https://run-rt-br.otteravision.com/run/rt_br/rt_br_720p_high.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES", Runtime Ação
+https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8
 
 #EXTINF:-1 group-title="VARIEDADES", Runtime Comédia
 https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
@@ -45,17 +53,6 @@ https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
 
 #EXTINF:-1 group-title="ANIMES", Loading
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
-
-##ESPORTES##
-
-#EXTINF:-1 group-title="ESPORTES", NSports
-https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_720p.m3u8
-
-#EXTINF:-1 group-title="ESPORTES", CazéTV
-https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="ESPORTES", Desimpedidos
-#https://ogc-desi-tcl-roku-syndication.otteravision.com/ogc/desi/desi.m3u8
 
 ##JAPÃO##
 
