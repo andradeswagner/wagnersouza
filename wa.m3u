@@ -8,9 +8,6 @@ https://redebrasil.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 group-title="VARIEDADES", MBC Brasil TV
 #https://play.mbcbrasil.tv.br/playlist.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES", Play TV
-#https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8
-
 ##SÉRIES ANTIGAS#
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Rede Clouding
@@ -20,7 +17,7 @@ https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
 https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Canal 29
-#https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
+https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", AWTV
 https://awtv.nuvemplay.live/hls/stream.m3u8
@@ -28,24 +25,18 @@ https://awtv.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Web TV Cine
 https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
 
-#EXTINF:-1 group-title="SÉRIES ANTIGAS", Lucas TV
-https://stmv1.srvif.com/lucastv/lucastv/playlist.m3u8
-
 #VARIEDADES##
 
-#EXTINF:-1 group-title="VARIEDADES", Runtime
+#EXTINF:-1 group-title="VARIEDADES", Runtime 1
 https://run-rt-br.otteravision.com/run/rt_br/rt_br_720p_high.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES", Runtime Ação
+#EXTINF:-1 group-title="VARIEDADES", Runtime 2
 https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8
 
-#EXTINF:-1 group-title="VARIEDADES", Runtime Comédia
+#EXTINF:-1 group-title="VARIEDADES", Runtime 3
 https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
 
 ##ANIMES##
-
-#EXTINF:-1 group-title="ANIMES", PlayTV
-#https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8
 
 #EXTINF:-1 group-title="ANIMES", Loading
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
