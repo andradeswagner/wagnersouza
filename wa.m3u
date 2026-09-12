@@ -14,7 +14,7 @@ https://redebrasil.nuvemplay.live/hls/stream.m3u8
 https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Web Tv Xtreme
-https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
+https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
 
 #EXTINF:-1 group-title="SÉRIES ANTIGAS", Canal 29
 #https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
@@ -44,6 +44,7 @@ https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
 ##ORIENTAIS##
 #EXTINF:-1 group-title="ORIENTAIS", KPop TV Play
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
+
 
 #EXTINF:-1 group-title="ORIENTAIS", Toei Channel 2
 http://onyx.trustissues.life:80/live/s92xDqRk/nSNsw3mC/10321061.m3u8
