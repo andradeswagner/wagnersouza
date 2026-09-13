@@ -50,8 +50,11 @@ https://isaocorp.cloudecast.com/playtv_sat_ku/index.m3u8
 https://stmv1.srvif.com/otaku/otaku/playlist.m3u8
 
 
-#EXTINF:-1 group-title="ORIENTAIS", Toei Channel 2
+#EXTINF:-1 group-title="ORIENTAIS", Toei Channel
 http://onyx.trustissues.life:80/live/s92xDqRk/nSNsw3mC/10321061.m3u8
+
+#EXTINF:-1 group-title="ORIENTAIS", Toei Channel 2
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
 
 #EXTINF:-1 group-title="ORIENTAIS", TV Asahi
 https://tvasahi.mov3.co/hls/tvasahi.m3u8
